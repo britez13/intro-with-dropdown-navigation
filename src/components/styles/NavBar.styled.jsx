@@ -78,7 +78,7 @@ export const NavBarStyle = styled.nav`
     }
     
     .wrapper:nth-child(1) .label::after {
-        content: url(${arrowUp});
+        content: url(${arrowDown});
         display: block;
         position: absolute;
         top: -.1rem;
@@ -106,7 +106,7 @@ export const NavBarStyle = styled.nav`
     }
 
     .wrapper:nth-child(1).active .label::after {
-        content: url('../../../images/icon-arrow-up.svg');
+        content: url(${arrowUp});
         display: block;
         position: absolute;
         top: -.1rem;
@@ -120,7 +120,7 @@ export const NavBarStyle = styled.nav`
     }
 
     .wrapper:nth-child(2).active .label::after {
-        content: url('../../../images/icon-arrow-up.svg');
+        content: url(${arrowUp});
         transition: all .5s;
         display: block;
         position: absolute;
