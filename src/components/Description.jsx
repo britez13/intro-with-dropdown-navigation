@@ -12,12 +12,12 @@ const Description = () => {
         <p>Get your team in sync, no matter your location. Streamline processes, 
   create team rituals, and watch productivity soar.</p>
         <button>Learn more</button>
-        <div className='clients-wrapper'>
+        <footer className='clients-wrapper'>
             <img src={ClientDatabiz} alt="Databiz" />
             <img src={ClientAudiophile} alt="Audiophile" />
             <img src={ClientMeet} alt="Meet" />
             <img src={ClientMaker} alt="Maker" />
-        </div>
+        </footer>
     </DescriptionStyle>
   )
 }
