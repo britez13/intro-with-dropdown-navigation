@@ -1,4 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+import arrowDown from '../../../images/icon-arrow-down.svg';
+import arrowUp from '../../../images/icon-arrow-up.svg';
 
 export const NavBarStyle = styled.nav`
 
@@ -76,7 +78,7 @@ export const NavBarStyle = styled.nav`
     }
     
     .wrapper:nth-child(1) .label::after {
-        content: url('../../../images/icon-arrow-down.svg');
+        content: url(${arrowUp});
         display: block;
         position: absolute;
         top: -.1rem;
@@ -90,7 +92,7 @@ export const NavBarStyle = styled.nav`
     }
 
     .wrapper:nth-child(2) .label::after {
-        content: url('../../../images/icon-arrow-down.svg');
+        content: url(${arrowDown});
         display: block;
         position: absolute;
         top: -.1rem;
